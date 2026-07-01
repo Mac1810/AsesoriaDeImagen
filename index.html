@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StyleAI · Asesoría de Imagen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- ===== Google Analytics 4 (gtag.js) =====
+     Measurement ID: G-LGCKNBM5BL -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LGCKNBM5BL"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LGCKNBM5BL');
+</script>
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Style<span>AI</span></div>
+    <nav>
+        <ul id="nav-list">
+            <li><a data-page="inicio" class="active">Inicio</a></li>
+            <li><a data-page="nosotros">Sobre Nosotros</a></li>
+            <li><a data-page="galeria">Galería</a></li>
+            <li><a data-page="contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- ============ INICIO ============ -->
+<div class="page active" id="inicio">
+    <section class="hero">
+        <div class="hero-content">
+            <div class="eyebrow">Asesoría de imagen personal</div>
+            <h1>Bienvenido a tu transformación</h1>
+            <h2>Confianza, estilo y autenticidad en cada detalle</h2>
+            <p>Descubre cómo potenciar tu confianza y estilo a través de nuestra asesoría. Te ayudamos a construir la imagen que deseas, realzando tu autenticidad y asegurando que cada aspecto de ti brille con claridad.</p>
+            <div class="buttons">
+                <button class="btn-primary" data-ga-id="cta_conocenos" onclick="irA('nosotros')">Conócenos</button>
+                <button class="btn-secondary" data-ga-id="cta_inicia_aqui" onclick="irA('contacto')">Inicia Aquí</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=800" alt="Asesoría de imagen">
+        </div>
+    </section>
+
+    <section class="services">
+        <h2 class="section-title">Nuestros Servicios</h2>
+        <p class="section-sub">Tres caminos para construir una imagen que hable por ti, dentro y fuera de la oficina.</p>
+        <div class="cards">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?w=800" alt="Asesoría de estilo">
+                <div class="card-content">
+                    <h3>Asesoría de Estilo</h3>
+                    <p>Definimos tu estilo único, ajustándonos a tus preferencias y necesidades, para que cada atuendo hable de ti.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=800" alt="Cuidado personal">
+                <div class="card-content">
+                    <h3>Cuidado Personal</h3>
+                    <p>Consejos de piel y cabello para que te sientas y luzcas lo mejor posible en cada ocasión.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800" alt="Entrenamiento de imagen">
+                <div class="card-content">
+                    <h3>Entrenamiento de Imagen</h3>
+                    <p>Sesiones para potenciar tu presencia y autoconfianza, ayudándote a comunicarte con éxito.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+        <div class="carousel">
+            <div class="testimonial">
+                <div class="stars">★★★★★</div>
+                <h4>María López</h4>
+                <p>Gracias a StyleAI mejoré mi presencia profesional y gané más confianza durante entrevistas laborales.</p>
+            </div>
+            <div class="testimonial">
+                <div class="stars">★★★★★</div>
+                <h4>Carlos Medina</h4>
+                <p>Las recomendaciones personalizadas me ayudaron a encontrar un estilo que realmente representa mi personalidad.</p>
+            </div>
+            <div class="testimonial">
+                <div class="stars">★★★★★</div>
+                <h4>Ana Torres</h4>
+                <p>La plataforma es intuitiva y las sugerencias son muy precisas. Ahora me siento más segura en reuniones y eventos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Transforma tu imagen hoy mismo</h2>
+        <p>Miles de usuarios ya están construyendo una imagen más auténtica, segura y alineada con sus objetivos personales y profesionales.</p>
+        <button class="btn-primary" data-ga-id="cta_crear_perfil_inicio" onclick="irA('contacto')">Crear mi perfil</button>
+    </section>
+</div>
+
+<!-- ============ SOBRE NOSOTROS ============ -->
+<div class="page" id="nosotros">
+    <section class="hero hero-small">
+        <div class="hero-content" style="margin:0 auto;text-align:center;">
+            <div class="eyebrow" style="justify-content:center;">Sobre nosotros</div>
+            <h1>Transforma tu imagen personal</h1>
+            <p style="margin:0 auto;">Somos un equipo de asesores de imagen apasionados por ayudarte a comunicar quién eres antes de decir una palabra.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="split">
+            <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800" alt="Misión y valores">
+            <div class="split-content">
+                <h3>Nuestra Misión y Valores</h3>
+                <p>En StyleAI creemos que la imagen personal es una herramienta de comunicación, no una máscara. Nuestra misión es ayudarte a construir una presencia auténtica, coherente con quién eres y con los objetivos que persigues.</p>
+                <ul class="value-list">
+                    <li>Autenticidad por encima de tendencias pasajeras</li>
+                    <li>Asesoría personalizada, nunca genérica</li>
+                    <li>Confianza como resultado, no como promesa</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section style="background:var(--surface);">
+        <h2 class="section-title">Conectamos contigo para potenciar tu imagen</h2>
+        <p class="section-sub">Un proceso simple, guiado por especialistas, para que cada cambio tenga sentido para ti.</p>
+        <div class="cards">
+            <div class="card">
+                <div class="card-content">
+                    <h3>1. Diagnóstico</h3>
+                    <p>Analizamos tu estilo actual, tu rutina y tus objetivos personales o profesionales.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>2. Plan a medida</h3>
+                    <p>Diseñamos recomendaciones concretas de vestuario, cuidado personal y presencia.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>3. Acompañamiento</h3>
+                    <p>Te acompañamos en la aplicación de los cambios hasta que se sientan naturales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Nuestro equipo</h2>
+        <p class="section-sub">Especialistas certificados en imagen, estilo y comunicación personal.</p>
+        <div class="team-grid">
+            <div class="team-card">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600" alt="Valeria Fernández">
+                <h4>Valeria Fernández</h4>
+                <span>Fundadora · Directora de Estilo</span>
+            </div>
+            <div class="team-card">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600" alt="Renzo Salinas">
+                <h4>Renzo Salinas</h4>
+                <span>Asesor de Imagen Corporativa</span>
+            </div>
+            <div class="team-card">
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600" alt="Camila Rojas">
+                <h4>Camila Rojas</h4>
+                <span>Especialista en Cuidado Personal</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Únete a nuestra comunidad hoy mismo</h2>
+        <p>Conoce de cerca al equipo que ha ayudado a cientos de personas a sentirse seguras con su imagen.</p>
+        <button class="btn-primary" data-ga-id="cta_unete_comunidad" onclick="irA('contacto')">Empezar ahora</button>
+    </section>
+</div>
+
+<!-- ============ GALERÍA ============ -->
+<div class="page" id="galeria">
+    <section class="hero hero-small">
+        <div class="hero-content" style="margin:0 auto;text-align:center;">
+            <div class="eyebrow" style="justify-content:center;">Galería</div>
+            <h1>Explora Tu Estilo Único</h1>
+            <p style="margin:0 auto;">Un vistazo a las transformaciones y sesiones que acompañamos cada mes.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Galería de Imágenes</h2>
+        <div class="gallery-grid">
+            <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?w=600" alt="Estilo 1">
+            <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600" alt="Estilo 2">
+            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600" alt="Estilo 3">
+            <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600" alt="Estilo 4">
+            <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600" alt="Estilo 5">
+            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600" alt="Estilo 6">
+        </div>
+    </section>
+
+    <section class="dark-strip">
+        <h2>Lo que dicen nuestros clientes sobre su experiencia</h2>
+        <p>"Cada sesión fue una oportunidad para descubrir algo nuevo sobre mi propio estilo." — María González, Diseñadora Gráfica</p>
+    </section>
+
+    <section>
+        <h2 class="section-title">Únete a nuestra comunidad</h2>
+        <p class="section-sub">Recibe inspiración de estilo y novedades directo a tu correo.</p>
+        <div class="inline-form">
+            <input type="text" placeholder="Tu nombre" data-ga-id="newsletter_nombre">
+            <input type="email" placeholder="Tu correo" data-ga-id="newsletter_email">
+            <button class="btn-primary" data-ga-id="newsletter_submit" onclick="return false;">Unirme</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#" onclick="irA('nosotros');return false;">Sobre Nosotros</a>
+            <a href="#" onclick="irA('contacto');return false;">Contáctate con Nosotros</a>
+            <a href="#">Términos y Condiciones</a>
+        </div>
+        <div class="footer-note">© 2026 StyleAI · Asesoría de Imagen</div>
+    </footer>
+</div>
+
+<!-- ============ CONTACTO ============ -->
+<div class="page" id="contacto">
+    <section class="hero hero-small">
+        <div class="hero-content" style="margin:0 auto;text-align:center;">
+            <div class="eyebrow" style="justify-content:center;">Contacto</div>
+            <h1>Conéctate con nosotros</h1>
+            <p style="margin:0 auto;">Cuéntanos qué necesitas y un asesor te responderá en menos de 24 horas.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Ubicación y contacto</h2>
+        <div class="contact-wrap">
+            <div class="contact-info">
+                <div class="map-box"><span class="pin">📍</span>&nbsp;Lima, Perú</div>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <h4>Correo electrónico</h4>
+                        <p>hola@styleai.pe</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Teléfono</h4>
+                        <p>+51 987 654 321</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Oficina</h4>
+                        <p>Jesús María, Lima</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Horario</h4>
+                        <p>Lun – Vie, 9am – 6pm</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3 style="color:var(--primary);margin-bottom:18px;font-size:20px;">Contáctanos</h3>
+                <div class="form-row">
+                    <input type="text" placeholder="Nombre" data-ga-id="contacto_nombre">
+                    <input type="text" placeholder="Apellido" data-ga-id="contacto_apellido">
+                </div>
+                <div class="form-row">
+                    <input type="email" placeholder="Correo electrónico" data-ga-id="contacto_email">
+                    <input type="text" placeholder="Teléfono" data-ga-id="contacto_telefono">
+                </div>
+                <div class="form-row">
+                    <select data-ga-id="contacto_asunto">
+                        <option value="">Selecciona un motivo</option>
+                        <option>Asesoría de estilo</option>
+                        <option>Cuidado personal</option>
+                        <option>Entrenamiento de imagen</option>
+                        <option>Otro</option>
+                    </select>
+                </div>
+                <textarea placeholder="Tu mensaje"></textarea>
+                <button class="btn-primary" data-ga-id="contacto_enviar" onclick="return false;">Enviar</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="dark-strip">
+        <h2>¡No te pierdas nuestras novedades y consejos!</h2>
+        <p>Suscríbete y recibe tips de estilo, cuidado personal e invitaciones a eventos exclusivos.</p>
+        <div class="inline-form">
+            <input type="email" placeholder="Tu correo" data-ga-id="contacto_newsletter_email">
+            <button class="btn-primary" data-ga-id="contacto_newsletter_submit" onclick="return false;">Suscribirme</button>
+        </div>
+    </section>
+</div>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
